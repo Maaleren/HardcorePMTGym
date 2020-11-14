@@ -44,13 +44,13 @@ div {
     width: 137px;
     height: 127px;
     background-image: url(LOGOsymboltrim1.png);
-    margin: 30px 90% 0px 30px;
+    margin: 40px 90% 0px 30px;
 }
 
-/*side 2 div*/
+/*signup side div*/
 #leftbox2 {
     width: 60%;
-    height: auto;
+    height: 640px;
     background-color: #1F1F1F;
     border-color: black;
     border-bottom: 3px solid;
@@ -60,7 +60,7 @@ div {
 }
 #rightbox2 {
     width: 40%;
-    height:auto;
+    height:640px;
     background-repeat: no-repeat;
     float: right;
     background-image: url(side2.jpg);    
@@ -69,21 +69,68 @@ div {
     box-sizing: border-box;
     float: left;
     width: 40% ;
-    height: 640px ;
-    padding-left: 30px;
+    height: 600px ;
+    padding-left: 40px;
     padding-top: 10px;
     padding-right: 30px;
 }
-
 #formright{
     box-sizing: border-box;
     float: left;
     width: 40% ;
-    height: 640px ;
-    padding-left: 30px ; 
+    height: 600px ;
+    padding-left: 40px ; 
     padding-top: 10px;
     padding-right: 30px;
 }
+
+/*side 4*/
+#page4{
+    background-color: #1F1F1F;
+    width: 100%;
+    height: 640px;
+    border-color: black;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+}
+#logo2{
+    width: 290px;
+    background-repeat: no-repeat;
+    height: 250px;
+    background-image: url(logo2.jpg);
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 250px;
+}
+/*login side div*/
+#leftbox6{
+    width: 55%;
+    height: 640px;
+    background-color: #1F1F1F;
+    border-color: black;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    float: left;
+}
+
+#rightbox6{
+    width: 45%;
+    height: 640px;
+    background-repeat: no-repeat;
+    float: right;
+    background-image: url(login.jpg); 
+}
+#form6{
+    margin: 0px 0px 100px 0px;
+    width: 60% ;
+    height: 600px ;
+    padding-left: 40px ; 
+    padding-top: 10px;
+    padding-right: 30px; 
+}
+
 /*Dette er stylingen links*/
 a.menulink {
     display: block;
@@ -96,54 +143,54 @@ a.menulink {
     
 }
 
+/*Detter er stylingen af overskrift 1*/
+h1{
+    font-size: 55px;
+    color: white;
+    font-family: "playfair";
+    padding: 100px 0px 0px 500px  ;
+    margin: 0%;
+}
+
 /*Dette er stylingen af overskrift 2*/
 h2.vikraever {
     font-size: 55px;
     color: white;
     font-family: "playfair";
-    margin: 20px 30px 0px ;
+    margin: 20px 40px 0px ;
 }
 /*Dette er stylingen af overskrift 3*/
 h3.overskrift {
     font-size: 40px;
     color: white;
     font-family: "playfair";
-    padding: 30px 0px 0px 0px;
-    margin: 30px 0px 20px;
+    padding: 20px 0px 0px 0px;
+    margin: 20px 40px 20px;
     }
 /*Dette er stylingen af brødtekst*/
 p.vier {
     font-size: 45px;
     color: white;
     font-family: "playfair";
-    margin: 20px 30px;
+    margin: 20px 40px;
 }
 p.nyheder {
     font-size: 40px;
     color: white;
     font-family: "playfair";
-    margin: 80px 30px 0px;
+    margin: 80px 40px 0px;
 }
 p.doegnaabent {
     font-size: 32px;
     color: white;
     font-family: "playfair";
-    margin: 20px 30px 0px;
+    margin: 20px 40px 0px;
 }
 p.spkitchen {
     font-size: 24px;
     color: white;
     font-family: "playfair";
-    margin: 50px 30px 0px;
-}
-
-/*Dette er stylingen af brødtekst på hvid baggrund*/
-p.tekskpåhvid {
-    font-size: 30px;
-    color: #1F1F1F;
-    font-family: "playfair";
-    left: 40px;
-    top: 170px;
+    margin: 50px 40px 0px;
 }
 
 /*styling af formular*/
@@ -160,44 +207,111 @@ input.formulainput, form select {
     color: #1F1F1F;
     font-family: "playfair";
     font-size: 20px;
-    margin-bottom: 5px;
+    margin: 0px 0px 0px 0px;
     box-sizing: border-box;
+    float: left;
 }
 input.postnr {
-    width: 30%;
+    width: 74%;
     height: 30px;
     color: #1F1F1F;
     font-family: "playfair";
     font-size: 20px;
-    margin-bottom: 5px;
-}
-input.by {
-    width: 50%;
-    height: 30px;
-    color: #1F1F1F;
-    font-family: "playfair";
-    font-size: 20px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    
-    
-}
-.select {
     box-sizing: border-box;
-    width: 30%;
-    height: 30px;
-    color: #1F1F1F;
-    font-family: "playfair";
-    margin-right: 3px;
+    padding: 0px;
    
 }
+input.by {
+    width: 98%;
+    height: 30px;
+    color: #1F1F1F;
+    font-family: "playfair";
+    font-size: 20px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.select {
+    width: 30%;
+    height: 30px;
+    color: #1F1F1F;
+    font-family: "playfair";
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 #jatak {
     font-size: 20px;
     color: white;
     font-family: "playfair";
     width: 20px;
     height: 20px;
-    position: fixed;
-    left: 40px;
-    top: 525px;
+}
+table{
+	width:100%
+}
+tr{
+    height: 30px;
+}
+td{
+    height: 30px;
+    padding: 0%;
+}
+td.postnrt{
+    width: 80px;
+    margin-right: 5px;
+    padding: 0px;
+    float: left;
+}
+td.postnri{
+    width: 70px;
+    height: 32px;
+    margin-right: 5px;
+    padding: 0px;
+    float: left;
+    
+}
+.maaned {
+    margin: 0px 14.5px 0px 14.5px;
+    width: 30%;
+    height: 30px;
+    color: #1F1F1F;
+    font-family: "playfair";
+    font-size: 20px;
+}
+.label{
+    font-size: 20px;
+    color: white;
+    font-family: "playfair";
+    float: left;
+    margin: 7px 0px;
+}
+.knapper{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: #1F1F1F;
+    font-family: "playfair";
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    float: left;
+}
+.login{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    color: #1F1F1F;
+    font-family: "playfair";
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.link{
+    font-size: 20px;
+    color: white;
+    font-family: "playfair";
+    
 }
